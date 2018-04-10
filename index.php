@@ -2,7 +2,6 @@
 
 // Your credentials
 $myClientId = 't5jZE8F5gS';
-$mySecret = 'jjJaRVTmaSf64Qk857R7rE';
 $myUrl = 'http://sharky.tf';
 
 // URLs
