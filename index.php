@@ -16,7 +16,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 $json = curl_exec($curl);
 if ($json) {
 	$data = json_decode($json);
-	echo $data;
+	echo $json;
 }
 
 session_destroy();
