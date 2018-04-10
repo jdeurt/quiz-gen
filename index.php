@@ -13,7 +13,7 @@ if(!empty($_GET['id'])) {
 echo $baseURL . $_SESSION['id'];
 
 $curl = curl_init($baseURL.$_SESSION['id']);
-curl_setopt($curl, CURLOPT_HTTPHEADER, ['Authorization: Bearer '.$cliendID]);
+curl_setopt($curl, CURLOPT_HTTPHEADER, ['Authorization: Bearer '.$clientID]);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 $json = curl_exec($curl);
 if ($json) {
