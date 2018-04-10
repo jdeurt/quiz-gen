@@ -2,7 +2,7 @@
 
 // Your credentials
 $myClientId = 't5jZE8F5gS';
-$myUrl = 'http://sharky.tf';
+$myUrl = 'http://sharky.tf/quizgen';
 
 // URLs
 $authorizeUrl = "https://quizlet.com/authorize?client_id={$myClientId}&response_type=code&scope=read%20write_set";
