@@ -9,6 +9,9 @@ session_start();
 if(!empty($_GET['id'])) {
 	$_SESSION['id'] = $_GET['id'];
 }
+else {
+	die();
+}
 
 $curl = curl_init($baseURL . $_SESSION['id']);
 curl_setopt($curl, CURLOPT_HTTPHEADER, ['Authorization: Bearer ' . $clientID]);
